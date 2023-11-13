@@ -48,8 +48,35 @@ body {
 
 /* End Global Rules */
 
+/* Start components */
+.special-heading {
+    color:#ebeced ;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
 
+.special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+}
 
+@media (max-width: 767px) {
+    .special-heading {
+        font-size: 60px;
+
+    }
+    .special-heading p {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+}
+
+/* End components */
 
 /* Start Header */
 .header {
@@ -214,13 +241,16 @@ body {
     color: #777;
     font-size: 17px;
 }
-
 /* End Features */
 
+/* Start Services */
 
+.services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-
-
+/* End Services */
 
 
 
